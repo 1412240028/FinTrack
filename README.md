@@ -276,7 +276,7 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 **Connect with me:**
 - 📧 Email: dhoniprasetya3@gmail.com
 - 💼 LinkedIn: https://www.linkedin.com/in/dhoni-prasetya-049980347
-- 🐙 GitHub: github.com/1412240028
+- 🐙 GitHub: https://github.com/1412240028
 
 ---
 
