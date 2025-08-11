@@ -1,0 +1,123 @@
+/* Styling untuk halaman Dashboard */
+.dashboard-container {
+    padding: var(--space-lg);
+    font-family: var(--font-primary);
+    color: #1F2937;
+    min-height: 100vh;
+    background-color: var(--bg-light); /* Menambahkan background-color */
+  }
+  
+  /* tambahkan styling untuk tombol logout */
+  .btn-primary.logout-btn {
+    margin-top: var(--space-md);
+    background-color: var(--expense);
+    color: #fff;
+  }
+
+  .summary-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+    justify-content: center;
+  }
+  
+  .summary-card {
+    background-color: var(--card-light);
+    padding: var(--space-lg);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .summary-card h2 {
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: var(--space-sm);
+    color: #6B7280;
+  }
+  
+  .summary-card p {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .balance-card p { color: var(--primary); }
+  .income-card p { color: var(--income); }
+  .expense-card p { color: var(--expense); }
+  .summary-section {
+    display: flex;
+    gap: var(--space-xl);
+    margin-top: var(--space-xl);
+    flex-wrap: wrap;
+  }
+  
+  .summary-cards {
+    /* Ubah flex menjadi 1 agar bisa menyesuaikan */
+    flex: 1; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    justify-content: center;
+  }
+  
+  .chart-container {
+    /* Tambahkan styling untuk container grafik */
+    flex: 2; /* Agar porsinya lebih besar dari summary cards */
+    background-color: var(--card-light);
+    padding: var(--space-lg);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .filter-controls {
+    display: flex;
+    gap: var(--space-md);
+    margin-top: var(--space-xl);
+  }
+  
+  .filter-group {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    background-color: var(--card-light);
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--radius-sm);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-group label {
+    font-weight: 600;
+    color: var(--text-color);
+  }
+  
+  .filter-group input[type="date"] {
+    padding: var(--space-xs);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: inherit;
+  }
+  .filter-group select {
+    padding: var(--space-xs);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: inherit;
+  }
+  .chart-wrapper {
+    background-color: var(--card-light);
+    padding: var(--space-lg);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: var(--space-xl);
+    width: 25%; /* Atur lebar wrapper sesuai keinginan */
+    }
+    
+    .chart-wrapper h3 {
+    margin-top: 0; /* Hilangkan margin atas default pada heading */
+    }

@@ -1,0 +1,73 @@
+/* src/styles/transactions.css */
+/* Styling untuk Tabel Transaksi */
+.table-container {
+    margin-top: var(--space-xl);
+    background-color: var(--card-light);
+    padding: var(--space-lg);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+  }
+  
+  .table-container h3 {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    margin-bottom: var(--space-md);
+    color: var(--primary);
+  }
+  
+  .transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--font-primary);
+  }
+  
+  .transaction-table th,
+  .transaction-table td {
+    padding: var(--space-sm);
+    text-align: left;
+  }
+  
+  .transaction-table th {
+    font-weight: 700;
+    border-bottom: 2px solid #E5E7EB;
+  }
+  
+  .transaction-table tr:hover {
+    background-color: #F9FAFB;
+  }
+  
+  .expense-row {
+    color: var(--expense);
+  }
+  
+  .income-row {
+    color: var(--income);
+  }
+  .btn-delete {
+    background-color: var(--expense);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-delete:hover {
+    background-color: color-mix(in srgb, var(--expense) 90%, black);
+  }
+  .btn-edit {
+    background-color: var(--primary);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    margin-right: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-edit:hover {
+    background-color: color-mix(in srgb, var(--primary) 90%, black);
+  }

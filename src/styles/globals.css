@@ -1,0 +1,40 @@
+/* Import font dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Plus+Jakarta+Sans:wght@700&display=swap');
+
+:root {
+  /* Colors */
+  --primary: #6366F1;
+  --accent: #EC4899;
+  --income: #10B981;
+  --expense: #F59E0B;
+  --bg-light: #FAFAFA;
+  --bg-dark: #0F172A;
+  --card-light: #FFFFFF;
+  --card-dark: #1E293B;
+  
+  /* Typography */
+  --font-primary: 'Inter', sans-serif;
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+  
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  
+  /* Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+}
+
+/* Base styling */
+body {
+  font-family: var(--font-primary);
+  background-color: var(--bg-light);
+  color: #1F2937;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
