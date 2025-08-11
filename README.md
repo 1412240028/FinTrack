@@ -269,14 +269,14 @@ Distributed under the MIT License. See `LICENSE` file for more information.
 
 ## 👨‍💻 **Developer**
 
-**Project Author:** [Your Name]  
+**Project Author:** Dhoni Prasetya  
 **Study Program:** Teknik Informatika  
 **Academic Level:** Semester 2  
 
 **Connect with me:**
-- 📧 Email: [your.email@example.com]
-- 💼 LinkedIn: [your-linkedin-profile]
-- 🐙 GitHub: [your-github-username]
+- 📧 Email: dhoniprasetya3@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/dhoni-prasetya-049980347
+- 🐙 GitHub: github.com/1412240028
 
 ---
 
